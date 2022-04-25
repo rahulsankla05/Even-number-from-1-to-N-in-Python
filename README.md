@@ -1,2 +1,6 @@
-# Even-number-from-1-to-N-in-Python
-To find even number using loop
+n = int(input())
+for i in range(1,n+1):
+    if i%2==0:
+        print(i,end=" ")
+        i=i+2
+        
